@@ -27,6 +27,10 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
+
+# Heavy assets
+assets
 
 # vercel
 .vercel
