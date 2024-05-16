@@ -39,7 +39,7 @@ async function openAiRequest() {
     },
     { role: "user", content: sampleConvo },
   ];
-  const model: OpenAI.Chat.ChatModel = "gpt-4-turbo";
+  const model: OpenAI.Chat.ChatModel = "gpt-4o";
   const completion = await openai.chat.completions.create({
     messages: promptMessages,
     model: model,
