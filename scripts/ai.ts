@@ -86,6 +86,10 @@ async function claudeAiRequest() {
   });
 }
 
-claudeAiRequest();
-openAiRequest();
-// viewLastResult();
+async function main() {
+  claudeAiRequest();
+  openAiRequest();
+  // viewLastResult();
+}
+
+main();
