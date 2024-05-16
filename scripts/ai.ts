@@ -87,9 +87,9 @@ async function claudeAiRequest() {
 }
 
 async function main() {
-  claudeAiRequest();
-  openAiRequest();
-  // viewLastResult();
+  await claudeAiRequest();
+  await openAiRequest();
+  //await viewLastResult();
 }
 
 main();
